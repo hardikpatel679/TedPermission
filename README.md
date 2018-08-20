@@ -41,7 +41,7 @@ Edit `root/app/build.gradle` like below.
 [ ![Download](https://api.bintray.com/packages/tkdrnjs0912/maven/tedpermission/images/download.svg) ](https://bintray.com/tkdrnjs0912/maven/tedpermission/_latestVersion)
 ```gradle
 dependencies {
-    implementation 'com.github.hardikpatel679.TedPermission:tedpermission:v1.0.13'
+    implementation 'com.github.hardikpatel679.TedPermission:tedpermission:v1.0.14'
 }
 ```
 
