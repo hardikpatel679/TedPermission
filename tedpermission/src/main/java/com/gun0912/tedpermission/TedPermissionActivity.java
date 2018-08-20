@@ -188,7 +188,9 @@ public class TedPermissionActivity extends AppCompatActivity {
     }
 
     private void permissionResult(List<String> deniedPermissions) {
+       if (BuildConfig.DEBUG) {
         Log.v(TedPermission.TAG, "permissionResult(): " + deniedPermissions);
+       }
         if (permissionListenerStack != null) {
             PermissionListener listener = permissionListenerStack.pop();
 
